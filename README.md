@@ -1,49 +1,33 @@
-# CV Matcher
+# CV Matcher 
 
+This project containg several stages (Data Collecting, Data Analysis, Applying algorithms)
 
-## Table of Contents
+## Data Collecting
+- Web scraping techniques were used to to collect data from Wuzzuf website. The scraped data contains features such as Job Title, Company Name, Job Location, Job Description,and Job Requirements.
 
-- [Installation](#installation)
-- [Usage](#usage)
+## Data Storage
+- The scraped data was stored in a csv format, and in a database.
 
-## Installation
+## Data Analysis
+- Extract insigts such as
+  
+1. Most common job title:
+jobs title and number of each job valid:
+  Customer Service     120
+  Accountant            81
+  Web Developer         57
+  Civil Engineer        56
+  Software Engineer     25
+  Flutter Developer      2
 
-To run this project, you will need to install the following Python libraries:
-- **urllib**: You can install it using pip:
-! pip install urllib
+<img src = "https://github.com/yassminSaber/CV-Matcher-/blob/main/most-common-job-title.png" width=700 hight =200/>
+<img src = "https://github.com/yassminSaber/CV-Matcher-/blob/main/most-common-job-title2.png" width=700 hight =200/>
 
-- **requests**: You can install it using pip:
-! pip install requests
+3. The preferred qualifications or skills mentioned in job descriptions
 
-- **BeautifulSoup**: You can install it using pip:
-! pip install BeautifulSoup
-
-- **pandas**: You can install it using pip:
-! pip install pandas
-
-- **wordcloud**: You can install it using pip:
-! pip install wordcloud
-
-- **nltk**: You can install it using pip:
-! pip install nltk
-
-- **matplotlib**: You can install it using pip:
-! pip install matplotlib
-
-- **numpy**: You can install it using pip:
-! pip install numpy
-
-- **plotly**: You can install it using pip:
-! pip install plotly
-
-- **pdfminer**: You can install it using pip:
-! pip install pdfminer
-
-- **sqlite3**: You can install it using pip:
-! pip install sqlite3
-
-
-## Usage
-
-user can upload cv as a pdf file and get the appropriate job matching
-
+   
+<img src = "https://github.com/yassminSaber/CV-Matcher-/blob/main/skills%20frequency.png" width=700 hight =200/>
+<img src = "https://github.com/yassminSaber/CV-Matcher-/blob/main/skills%20frequency2.png" width=700 hight =200/>
+   
+   
+5. The geographic distribution of job opportunities.
