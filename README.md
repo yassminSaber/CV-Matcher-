@@ -4,7 +4,7 @@ This project Match you with the best fit job oppertunity based on your CV.
 It contaains several stages (Data Collecting, Data Analysis, Applying algorithms)
 
 ## Data Collecting
-- Web scraping techniques were used to to collect data from Wuzzuf website. The scraped data contains features such as Job Title, Company Name, Job Location, Job Description,and Job Requirements.
+- Web scraping techniques were used to collect data from Wuzzuf website. The scraped data contains features such as Job Title, Company Name, Job Location, Job Description,and Job Requirements.
 
 ## Data Storage
 - The scraped data was stored in a csv format, and in a database.
